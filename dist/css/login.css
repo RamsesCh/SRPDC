@@ -1,0 +1,133 @@
+body{
+    background-image: url("../img/backlogin.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.form-signin
+{
+    max-width: 330px;
+    padding: 15px;
+    margin: auto auto;
+    background: transparent;
+}
+.form-signin .form-signin-heading
+{
+    margin-bottom: 10px;
+}
+
+.second{
+    margin: auto;
+    color: white;
+}
+
+.page-header{
+    margin-top: 300px;
+    background: #088A85;
+    text-align: center;
+}
+
+.text-univer{
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form-signin .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus
+{
+    z-index: 2;
+}
+.form-signin input[type="text"]
+{
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"]
+{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.account-wall
+{
+    margin-top: 10px;
+    padding: 40px 0px 20px 0px;
+    background-color: rgba(255, 255,255, 0.6);
+    border-radius: 5px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.mensaje-error{
+    background-color: #E74F4F;
+    position: absolute;
+    top: 20;
+    padding: 5px;
+    color: #fff;
+    text-align: center;
+    display: none;
+    width: 92.3%;
+    z-index: 1000;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.btn-block{
+    background: #088A85;
+}
+
+.btn-block:active{
+    transform: scale(0.99);
+}
+
+.btn-block:hover{
+    background: #088A85;
+}
+
+.loader-login{
+    width: 23px;
+    height: 23px;
+}
+
+.login-title
+{
+    font-family: arial;
+    color: gray;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: -10px;
+    display: block;
+}
+.image-profile
+{
+    width: 130px;
+    height: 130px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.need-help
+{
+    margin-top: 10px;
+}
+.nueva-cuenta
+{
+    display: block;
+    margin-top: 10px;
+}
