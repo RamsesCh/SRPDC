@@ -37,7 +37,8 @@
             <li class="nav-item">
               <a href="<?php echo $dato['url']?>" class="nav-link">
               <i class="<?php echo $dato['icon']?>"></i>
-              <p><?php echo $dato['modulo']?></p>
+              <p><?php echo utf8_encode($dato['modulo'])?></p>
+
               </a>
             </li>
           <?php 
